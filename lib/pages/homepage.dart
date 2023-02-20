@@ -10,13 +10,14 @@ class Homepage extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Center(child: const Text('MY APP')),
+          title: Center(child: const Text('M Y   I N F O')),
         ),
         body: Center(
           child: Container(
             child: Text('I\'m ${name}\nI\'m $days old.'),
           ),
         ),
+        drawer: Drawer(),
       ),
     );
   }
